@@ -27,4 +27,10 @@ Each character is chosen independently, contributing to the overall randomness a
 
 The randomness cannot be easily predicted or reproduced, which is crucial for this project.
 
+The secrets, string and os module are all part of Python's standard library, so you do not need to install these.
+
+Install Python.
+Install tkinter.
+
+'main.py' to run.
 'Esc' on keyboard to close the program.
