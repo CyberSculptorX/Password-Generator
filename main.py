@@ -107,7 +107,7 @@ class PasswordGeneratorApp:
         self.show_message("Password copied to clipboard.")
 
     def download_password(self):
-        download_path = os.path.join(os.path.expanduser("~"), "Downloads", "generated_password.txt")
+        download_path = os.path.join(os.path.expanduser("~"), "Downloads", "weather_report.txt")
         with open(download_path, 'w') as file:
             file.write(self.generated_password.get(1.0, tk.END).strip())
         self.show_message("Password saved successfully in the Downloads folder.")
